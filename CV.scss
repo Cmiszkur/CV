@@ -1,0 +1,193 @@
+$blue: #6ad3b9;
+$blue2: #295e6a;
+$orange:#295e6a;
+$gray: #706e6c;
+$darkerBlue: darken($blue, 5%);
+$yellow: #fce850;
+
+// $blue: #50c4ed;
+// $blue2: #387adf;
+// $orange: #fba834;
+// $gray: #706e6c;
+// $darkerBlue: darken($blue, 5%);
+// $yellow: #fce850;
+
+// $blue: #84f2d6;
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+    background-color: #4e4e4e;
+
+    #block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        dd {
+            padding-top: 0.4em;
+            padding-bottom: 0.4em;
+            margin-bottom: 1.5em;
+
+            p2 {
+                font-size: 1.2em;
+                font-weight: 600;
+                color: $orange;
+            }
+
+            p3 {
+                font-size: 1.02em;
+                color: #807f7e;
+            }
+
+        }
+        dt {
+            margin-left: 1em;
+            font-size: 1.2em;
+        }
+    }
+        p1 {
+            font-size: 1.5em;
+            color: $blue;
+        }
+
+        h1 {
+            align-self: center;
+            text-align: center;
+            color: #295e6a;
+        }
+
+       
+
+        #right {
+            background-color: #f6f6f6;
+            display: flex;
+            flex-direction: column;
+            max-width: 50em;
+           
+            footer {
+                width: 80%;  
+                align-self: center;
+                margin-bottom: 2em;
+                color:#295e6a
+            }
+
+            #education, #experience, #certificates {
+                width: 80%;
+                align-self: center;
+            }
+
+            #blue_line {
+                height: 2px;
+                width: 80%;
+                align-self: center;
+                background-color: $blue;
+                margin-bottom: 4.5em;
+            }
+            
+        }
+        #left{
+
+            img {
+                width: 12em;
+                height: 15em;
+                border-radius: 5%;
+                align-self: center;
+                margin-bottom: 1.5em;
+                transform: rotate(-0.55deg);
+            }
+
+            padding: 1em;
+            background: rgb(223,239,240);
+            background: linear-gradient(180deg, rgba(223,239,240,1) 0%, rgba(246,246,246,1) 100%);
+            display: flex;
+            flex-direction: column;
+            width: 18em;
+
+            p1 {
+                font-size: 1.7em;
+                margin-top: 0.5em;
+                margin-bottom: 1.9em;
+                align-self: flex-start;
+                color: $blue2;
+                font-weight: 760;
+            }
+
+            p4 {
+                font-size: 1.35em; 
+                padding-bottom: 0.7em; 
+                color: $blue2;
+                margin-bottom: 0.7em;
+
+                .fas.fa-at{
+                    font-size: 1.13em;
+                }
+
+                .fas.fa-phone-square{
+                    font-size: 1.13em;
+                }
+
+                .fas.fa-language{
+                    font-size: 1.3em;
+                }
+            }
+
+            .bar{
+                font-size: 1.4em;
+                color: $blue2;
+            }
+
+           .bar-line2{
+               background-color: lighten($blue2, 50%);
+               height: 10px;
+               width: 100%;
+               .bar-line#html{
+                   background-color: $blue2 !important;
+                   height: inherit;
+                   width: 80%;
+               }
+               .bar-line#js{
+                background-color: $blue2 !important;
+                height: inherit;
+                width: 50%;
+                }
+                .bar-line#css{
+                    background-color: $blue2 !important;
+                    height: inherit;
+                    width: 80%;
+                }
+                .bar-line#angular{
+                    background-color: $blue2 !important;
+                    height: inherit;
+                    width: 10%;
+                }
+                .bar-line#symfony{
+                    background-color: $blue2 !important;
+                    height: inherit;
+                    width: 10%;
+                }
+           }
+
+            #test {
+                display: flex;
+                flex-direction: column;
+
+                #line {
+                    display: flex;
+                    flex-direction: row;
+                    font-size: 1.35em;
+                    color: $blue2;
+                    margin-bottom: 1em;
+
+                    #dot {
+                        height: 1em;
+                        width: 1em;
+                        background-color: $blue2;
+                        border-radius: 50%;
+                        margin-right: 0.5em;
+                    }
+                }
+            }
+        }
+ }

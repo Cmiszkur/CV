@@ -1,0 +1,220 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 1em;
+  background-color: #4e4e4e;
+}
+
+body #block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #block dd {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  margin-bottom: 1.5em;
+}
+
+body #block dd p2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #295e6a;
+}
+
+body #block dd p3 {
+  font-size: 1.02em;
+  color: #807f7e;
+}
+
+body #block dt {
+  margin-left: 1em;
+  font-size: 1.2em;
+}
+
+body p1 {
+  font-size: 1.5em;
+  color: #6ad3b9;
+}
+
+body h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  color: #295e6a;
+}
+
+body #right {
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 50em;
+}
+
+body #right footer {
+  width: 80%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 2em;
+  color: #295e6a;
+}
+
+body #right #education, body #right #experience, body #right #certificates {
+  width: 80%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body #right #blue_line {
+  height: 2px;
+  width: 80%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: #6ad3b9;
+  margin-bottom: 4.5em;
+}
+
+body #left {
+  padding: 1em;
+  background: #dfeff0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dfeff0), to(#f6f6f6));
+  background: linear-gradient(180deg, #dfeff0 0%, #f6f6f6 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 18em;
+}
+
+body #left img {
+  width: 12em;
+  height: 15em;
+  border-radius: 5%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 1.5em;
+  -webkit-transform: rotate(-0.55deg);
+          transform: rotate(-0.55deg);
+}
+
+body #left p1 {
+  font-size: 1.7em;
+  margin-top: 0.5em;
+  margin-bottom: 1.9em;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #295e6a;
+  font-weight: 760;
+}
+
+body #left p4 {
+  font-size: 1.35em;
+  padding-bottom: 0.7em;
+  color: #295e6a;
+  margin-bottom: 0.7em;
+}
+
+body #left p4 .fas.fa-at {
+  font-size: 1.13em;
+}
+
+body #left p4 .fas.fa-phone-square {
+  font-size: 1.13em;
+}
+
+body #left p4 .fas.fa-language {
+  font-size: 1.3em;
+}
+
+body #left .bar {
+  font-size: 1.4em;
+  color: #295e6a;
+}
+
+body #left .bar-line2 {
+  background-color: #b1d8e1;
+  height: 10px;
+  width: 100%;
+}
+
+body #left .bar-line2 .bar-line#html {
+  background-color: #295e6a !important;
+  height: inherit;
+  width: 80%;
+}
+
+body #left .bar-line2 .bar-line#js {
+  background-color: #295e6a !important;
+  height: inherit;
+  width: 50%;
+}
+
+body #left .bar-line2 .bar-line#css {
+  background-color: #295e6a !important;
+  height: inherit;
+  width: 80%;
+}
+
+body #left .bar-line2 .bar-line#angular {
+  background-color: #295e6a !important;
+  height: inherit;
+  width: 10%;
+}
+
+body #left .bar-line2 .bar-line#symfony {
+  background-color: #295e6a !important;
+  height: inherit;
+  width: 10%;
+}
+
+body #left #test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #left #test #line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.35em;
+  color: #295e6a;
+  margin-bottom: 1em;
+}
+
+body #left #test #line #dot {
+  height: 1em;
+  width: 1em;
+  background-color: #295e6a;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+/*# sourceMappingURL=CV.css.map */
